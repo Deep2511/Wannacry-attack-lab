@@ -32,18 +32,6 @@ Two virtual machines were configured:
 - Attacker: Kali Linux
 - Victim: Windows 7 (SMBv1 enabled)
 
-Both systems were connected via NAT Network.
-![wannacry10](https://github.com/user-attachments/assets/38372bd5-26ae-48d5-b873-e72102f85db9)
-
----
-## 🔍 Step 1: Reconnaissance (Nmap Scan)
-
-Scanning target machine to identify open ports.
-
-```bash
-nmap -sV 10.0.2.15
-![Wannacry1](https://github.com/user-attachments/assets/b6a5565c-ee45-454a-b563-68011dfb599b)
-
 ---
 ## 🔍 Step 2: Vulnerability Detection 
 
